@@ -245,3 +245,4 @@ ModelManifest.xml
 .fake/
 /WebsiteGenerator/WebGenEnv/.ptvs
 /WebsiteGenerator/WebGenEnv/Scripts
+/WebsiteGenerator/__pycache__

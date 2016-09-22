@@ -25,6 +25,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="WebsiteGenerator.py" />
+    <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="WebGenEnv\">
@@ -43,6 +44,12 @@
     <Folder Include="html\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html\base_template.html" />
+    <Content Include="html\footer.html" />
+    <Content Include="html\header.html" />
+    <Content Include="html\index_template.html" />
+    <Content Include="html\layout.html" />
+    <Content Include="html\nav.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <PropertyGroup>
