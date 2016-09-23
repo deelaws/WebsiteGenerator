@@ -1,2 +1,2 @@
 # WebsiteGenerator
-My static public website code generator.
+This project generates the static pages for my public website.
