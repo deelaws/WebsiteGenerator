@@ -25,21 +25,23 @@
                 <h1 class="name"> Waleed Shahid</h1>
                 <h2 class="ocupation"> Software Engineer</h2>
                  <ul class="social-icons list-inline">
-                     <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus "></i></a></li>
-                     <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                     <li class="list-inline-item"><a href="#"><i class="fa fa-github-alt"></i></a></li>
-                     <li class="list-inline-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>
+                     <li class="list-inline-item"><a href="https://plus.google.com/+waleedshahidmvp"><i class="fa fa-google-plus "></i></a></li>
+                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/waleed-shahid-13aba239"><i class="fa fa-linkedin"></i></a></li>
+                     <li class="list-inline-item"><a href="https://github.com/deelaws"><i class="fa fa-github-alt"></i></a></li>
+                     <li class="list-inline-item"><a href="https://news.ycombinator.com/"><i class="fa fa-hacker-news"></i></a></li>
                  </ul> 
             </div>
-            <a class="btn btn-primary pull-right contact-button">
-                Contact Me
-            </a>
         </div>
     </header>
 
-    {% block nav %} {% endblock %}
 
+
+    <div class="container">
+        {% block nav %} {% endblock %}
+    </div>
     {% block body %} {% endblock %}
+
+    {% block script %} {% endblock %}
 
     {% block footer %} {% endblock %}
 </body>
