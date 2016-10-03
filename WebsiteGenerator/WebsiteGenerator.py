@@ -1,8 +1,6 @@
 from jinja2 import Environment, PackageLoader
 import sys
 
-
-
 def generate_index_page(env):
     template = env.get_template('index_template.html')
     a = template.render(title='Waleed\'s website')
